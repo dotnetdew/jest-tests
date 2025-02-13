@@ -1,5 +1,4 @@
 const isValidQuantity = require('./cardValidation')
-const quantityCheck = require('./cardValidation')
 
 test('valid positive quantity', () => {
     expect(isValidQuantity(1)).toBe(true);
